@@ -1,0 +1,6 @@
+New York City Temperature: 11.7°C
+Weather Condition: Sunny
+
+Exchange Rate USD to EUR: 0.8898
+Exchange Rate USD to GBP: 0.7631
+Exchange Rate USD to JPY: 109.313

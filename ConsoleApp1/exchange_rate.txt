@@ -1,0 +1,10 @@
+Exchange rate of USD to EUR: 0.9029
+Exchange rate of USD to CAD: 1.2961
+Exchange rate of USD to JPY: 115.2500
+Exchange rate of USD to GBP: 0.7539
+Exchange rate of USD to AUD: 1.3347
+Exchange rate of USD to INR: 76.0300
+Exchange rate of USD to CNY: 6.3764
+Exchange rate of USD to MXN: 20.1908
+Exchange rate of USD to CHF: 0.9372
+Exchange rate of USD to SEK: 9.3269
