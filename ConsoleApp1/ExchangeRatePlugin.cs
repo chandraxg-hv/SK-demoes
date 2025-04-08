@@ -12,7 +12,7 @@ namespace ConsoleApp1
         [Description("Get the exchange rate data for currency ")]
         [return : Description("A list of exchange rate data for currency")]
 
-        public async Task<string?> GetExchangeRate (string basecurrency, List<string> listcurrency)
+        public async Task<string?> GetExchangeRateAsync (string basecurrency, List<string> listcurrency)
         {
             // Convert the list of currencies to a comma-separated string
             string currency = string.Join(",", listcurrency);

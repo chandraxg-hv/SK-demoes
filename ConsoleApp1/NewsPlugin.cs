@@ -11,7 +11,7 @@ namespace ConsoleApp1
         [Description("Get the news feed from the New York Times for today's date")]
         [return : Description("A list of news items")]
 
-        public async Task<List<FeedItem>> GetNewsFeed(Kernel kernel, string category)
+        public async Task<List<FeedItem>> GetNewsFeedAsync(Kernel kernel, string category)
         {
             var reader = new FeedReader();
             var feed = await reader.RetrieveFeedAsync ($"https://rss.nytimes.com/services/xml/rss/nyt/{category}.xml");

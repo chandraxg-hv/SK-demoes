@@ -11,7 +11,7 @@ namespace ConsoleApp1
         [Description("Get the weather data for a city ")]
         [return : Description("A list of weather for a city")]
 
-        public async Task<string?> GetWeatherData (string location)
+        public async Task<string?> GetWeatherDataAsync (string location)
         {
             var config = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
@@ -54,7 +54,7 @@ namespace ConsoleApp1
         [Description("Get the weather forecast for a city ")]
         [return : Description("A list of weather forecast for a city")]
 
-        public async Task<string?> GetWeatherForecast (string location)
+        public async Task<string?> GetWeatherForecastAsync (string location)
         {
             var config = new ConfigurationBuilder()
             .SetBasePath(AppContext.BaseDirectory)
